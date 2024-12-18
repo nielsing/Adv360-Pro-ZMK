@@ -1,60 +1,6 @@
-macro_is_d: macro_is_d{
+macro_arrow: macro_arrow{
 compatible = "zmk,behavior-macro";
-label = "macro_is_d";
+label = "macro_arrow";
 #binding-cells = <0>;
-bindings = <&sk RIGHT_ALT>, <&kp D>;
-};
-macro_is_ae: macro_is_ae{
-compatible = "zmk,behavior-macro";
-label = "macro_is_ae";
-#binding-cells = <0>;
-bindings = <&sk RIGHT_ALT>, <&kp APOS>;
-};
-macro_is_oo: macro_is_oo{
-compatible = "zmk,behavior-macro";
-label = "macro_is_oo";
-#binding-cells = <0>;
-bindings = <&sk RIGHT_ALT>, <&kp U>, <&kp O>;
-};
-macro_is_a: macro_is_a{
-compatible = "zmk,behavior-macro";
-label = "macro_is_a";
-#binding-cells = <0>;
-bindings = <&sk RIGHT_ALT>, <&kp E>, <&kp A>;
-};
-macro_is_u: macro_is_u{
-compatible = "zmk,behavior-macro";
-label = "macro_is_u";
-#binding-cells = <0>;
-bindings = <&sk RIGHT_ALT>, <&kp E>, <&kp U>;
-};
-macro_is_t: macro_is_t{
-compatible = "zmk,behavior-macro";
-label = "macro_is_t";
-#binding-cells = <0>;
-bindings = <&sk RIGHT_ALT>, <&kp T>;
-};
-macro_is_y: macro_is_y{
-compatible = "zmk,behavior-macro";
-label = "macro_is_y";
-#binding-cells = <0>;
-bindings = <&sk RIGHT_ALT>, <&kp E>, <&kp Y>;
-};
-macro_is_e: macro_is_e{
-compatible = "zmk,behavior-macro";
-label = "macro_is_e";
-#binding-cells = <0>;
-bindings = <&sk RIGHT_ALT>, <&kp E>, <&kp E>;
-};
-macro_is_i: macro_is_i{
-compatible = "zmk,behavior-macro";
-label = "macro_is_i";
-#binding-cells = <0>;
-bindings = <&sk RIGHT_ALT>, <&kp E>, <&kp I>;
-};
-macro_is_o: macro_is_o{
-compatible = "zmk,behavior-macro";
-label = "macro_is_o";
-#binding-cells = <0>;
-bindings = <&sk RIGHT_ALT>, <&kp E>, <&kp O>;
+bindings = <&kp MINUS>, <&kp GREATER_THAN>;
 };
