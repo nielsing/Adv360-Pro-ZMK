@@ -82,19 +82,19 @@
             bindings = <
  &trans  &trans        &trans        &trans          &trans            &trans            &trans                                                   &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans        &trans        &trans          &trans            &trans            &trans                                                   &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_CONTROL            &trans  &trans  &trans                  &trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans        &trans        &trans          &trans            &trans                            &trans                  &trans                   &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans        &trans        &trans          &trans                              &trans  &trans  &trans                  &trans  &trans  &kp TAB          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_CONTROL            &trans  &trans  &trans                   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans        &trans        &trans          &trans            &trans                            &trans                   &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans        &trans        &trans          &trans                              &trans  &trans  &trans                  &kp TAB  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_rightmods {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans             &trans                                                  &trans             &trans           &trans         &trans        &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &trans                                                  &trans             &trans           &trans         &trans        &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &trans  &trans  &trans                  &trans  &trans  &trans  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &kp LEFT_ALT  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                   &trans             &trans           &trans         &trans        &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                   &trans             &trans           &trans         &trans        &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans   &trans                  &trans  &trans  &trans  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &kp LEFT_ALT  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                             &trans                  &trans                             &trans           &trans         &trans        &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &kp TAB  &trans  &trans                  &trans  &trans  &trans                              &trans         &trans        &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &kp TAB                  &trans  &trans  &trans                              &trans         &trans        &trans  &trans  &trans
             >;
         };
 
