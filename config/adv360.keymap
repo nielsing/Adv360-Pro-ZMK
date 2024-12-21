@@ -28,8 +28,8 @@
         label = "HOMEROW_MODS";
         #binding-cells = <2>;
         tapping-term-ms = <200>;
-        quick_tap_ms = <175>;
-        flavor = "tap-preferred";
+        quick_tap_ms = <0>;
+        flavor = "balanced";
         bindings = <&kp>, <&kp>;
     };
   };
@@ -42,7 +42,7 @@
             bindings = <
  &kp EQUAL              &kp N1          &kp N2          &kp N3            &kp N4  &kp N5              &tog 1                                                                                   &mo 2  &kp N6             &kp N7           &kp N8          &kp N9               &kp N0  &kp MINUS
    &kp TAB               &kp Q           &kp W           &kp F             &kp P   &kp B               &none                                                                                   &none   &kp J              &kp L            &kp U           &kp Y             &kp SEMI   &kp BSLH
-   &kp ESC  &mt LEFT_CONTROL A  &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LEFT_SHIFT T   &kp G               &none     &kp MINUS   &kp SEMICOLON                  &kp LEFT_BRACKET    &kp SLASH      &none   &kp M  &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt LEFT_ALT I  &mt RIGHT_CONTROL O    &kp SQT
+   &kp ESC  &hm LEFT_CONTROL A  &hm LEFT_ALT R  &hm LEFT_GUI S  &hm LEFT_SHIFT T   &kp G               &none     &kp MINUS   &kp SEMICOLON                  &kp LEFT_BRACKET    &kp SLASH      &none   &kp M  &hm RIGHT_SHIFT N  &hm RIGHT_GUI E  &hm LEFT_ALT I  &hm RIGHT_CONTROL O    &kp SQT
  &kp LSHFT               &kp Z           &kp X           &kp C             &kp D   &kp V                                    &kp LEFT_SHIFT                           &kp TAB                           &kp K              &kp H        &kp COMMA         &kp DOT             &kp FSLH  &kp RSHFT
      &mo 1           &kp GRAVE        &kp CAPS        &kp LEFT         &kp RIGHT                    &kp BSPC  &lt 1 DELETE  &kp LEFT_SHIFT                           &kp TAB  &lt 3 ENTER  &kp SPACE                     &kp UP         &kp DOWN        &kp LBKT             &kp RBKT      &mo 1
             >;
