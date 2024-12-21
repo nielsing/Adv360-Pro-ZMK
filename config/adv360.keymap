@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL       &kp N1          &kp N2          &kp N3            &kp N4  &kp N5              &tog 1                                                                                   &mo 2  &kp N6             &kp N7           &kp N8          &kp N9       &kp N0  &kp MINUS
-   &kp TAB        &kp Q           &kp W           &kp F             &kp P   &kp B               &none                                                                                   &none   &kp J              &kp L            &kp U           &kp Y     &kp SEMI   &kp BSLH
-   &kp ESC  &mt A LCTRL  &mt R LEFT_ALT  &mt S LEFT_GUI  &mt T LEFT_SHIFT   &kp G               &none     &kp MINUS   &kp SEMICOLON                  &kp LEFT_BRACKET    &kp SLASH      &none   &kp M  &mt N RIGHT_SHIFT  &mt E RIGHT_GUI  &mt I LEFT_ALT  &mt O RCTRL    &kp SQT
- &kp LSHFT        &kp Z           &kp X           &kp C             &kp D   &kp V                                    &kp LEFT_SHIFT                           &kp TAB                           &kp K              &kp H        &kp COMMA         &kp DOT     &kp FSLH  &kp RSHFT
-     &mo 1    &kp GRAVE        &kp CAPS        &kp LEFT         &kp RIGHT                    &kp BSPC  &lt 1 DELETE  &kp LEFT_SHIFT                           &kp TAB  &lt 3 ENTER  &kp SPACE                     &kp UP         &kp DOWN        &kp LBKT     &kp RBKT      &mo 1
+ &kp EQUAL              &kp N1          &kp N2          &kp N3            &kp N4  &kp N5              &tog 1                                                                                   &mo 2  &kp N6             &kp N7           &kp N8          &kp N9               &kp N0  &kp MINUS
+   &kp TAB               &kp Q           &kp W           &kp F             &kp P   &kp B               &none                                                                                   &none   &kp J              &kp L            &kp U           &kp Y             &kp SEMI   &kp BSLH
+   &kp ESC  &mt LEFT_CONTROL A  &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LEFT_SHIFT T   &kp G               &none     &kp MINUS   &kp SEMICOLON                  &kp LEFT_BRACKET    &kp SLASH      &none   &kp M  &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt LEFT_ALT I  &mt RIGHT_CONTROL O    &kp SQT
+ &kp LSHFT               &kp Z           &kp X           &kp C             &kp D   &kp V                                    &kp LEFT_SHIFT                           &kp TAB                           &kp K              &kp H        &kp COMMA         &kp DOT             &kp FSLH  &kp RSHFT
+     &mo 1           &kp GRAVE        &kp CAPS        &kp LEFT         &kp RIGHT                    &kp BSPC  &lt 1 DELETE  &kp LEFT_SHIFT                           &kp TAB  &lt 3 ENTER  &kp SPACE                     &kp UP         &kp DOWN        &kp LBKT             &kp RBKT      &mo 1
             >;
         };
 
